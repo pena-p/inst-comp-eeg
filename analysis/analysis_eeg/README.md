@@ -39,6 +39,7 @@ This folder contains the scripts to perform each EEG analysis.
  - All the functions used are inside the "src" folder.
  - To plot the main results of CCGP (Figure 4B) and SD (Figure 5C and 5C) run the script plot_mvpa_ccgp_sd.m 
  - To plot the Supplementary Materials of this analyses run plot_per_dichot.m
+ - To compare the MVPA and CCGP results via Pearson's correlation run comparison_mvpa_ccgp.m
 
 ### Temporal Generalization Analysis with Cross-classification:
  - Go to the "mvcc_temporal_generalization" folder.
