@@ -45,7 +45,7 @@ for i = 1:length(var_combinations)
     for step_a = 1:4
         for step_b = 1:4
     counter = counter + 1;
-    load(['Z:/paula/inst-comp-eeg/EEG/results/ccgp/' num2str(var_combinations(i)) '/ccgp/1-1/result.mat']); % for the cfg
+    load(['Z:/paula/inst-comp-eeg/EEG/results/ccgp/' num2str(var_combinations(i)) '/ccgp/' num2str(step_a) '-' num2str(step_b) '/result.mat']); % for the cfg
     graph.title = [num2str(counter)];
     subplot(4,4,counter); hold on;
     graph.fontsize =10;
